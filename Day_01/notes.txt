@@ -1,0 +1,4 @@
+Day_01 notes:
+  root: / and \
+  / : absolute root
+  \ : reference root
