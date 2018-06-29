@@ -16,3 +16,11 @@ int main()
 
 1、头文件类似于菜单，头文件包含函数的声明，菜单列举了菜名
 2、函数调用，相当于点菜
+
+windows编译代码：
+(1) cd 目录
+(2) dir 查看目录信息
+(3)
+  gcc hello.c 默认在当前路径生成a.exe
+  gcc hello.c -o hello 生成hello.exe
+(4) 运行，在windows下运行 //07 07:39
