@@ -23,4 +23,14 @@ windows编译代码：
 (3)
   gcc hello.c 默认在当前路径生成a.exe
   gcc hello.c -o hello 生成hello.exe
-(4) 运行，在windows下运行 //07 07:39
+  gcc c文件路径 -o 存放exe的路径
+(4) 运行，在windows下运行,无需./
+
+注释:
+(1) // 行注释
+(2) /**/ 块注释
+
+gcc编译C代码
+
+system函数
+查询方式 man 3 system
