@@ -21,5 +21,19 @@
     <ClCompile Include="02system.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03simpleCalculation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04simpleCalculate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05integer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="06IntProperty.c">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>

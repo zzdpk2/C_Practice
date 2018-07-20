@@ -1,2 +1,1 @@
-﻿  02system.c
-  day01.vcxproj -> D:\Projects\C_Practice\Day_01\day01\Debug\day01.exe
+﻿LINK : fatal error LNK1561: 必须定义入口点

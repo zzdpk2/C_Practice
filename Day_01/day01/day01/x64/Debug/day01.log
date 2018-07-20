@@ -1,2 +1,20 @@
-﻿  02system.c
-  day01.vcxproj -> D:\Projects\C_Practice\Day_01\day01\x64\Debug\day01.exe
+﻿  04simpleCalculate.asm
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(10): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(12): error C2065: “mov”: 未声明的标识符
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(12): error C2146: 语法错误: 缺少“;”(在标识符“a”的前面)
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(13): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(13): error C2065: “mov”: 未声明的标识符
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(13): error C2146: 语法错误: 缺少“;”(在标识符“b”的前面)
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(14): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(14): error C2065: “mov”: 未声明的标识符
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(14): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(14): error C2065: “eax”: 未声明的标识符
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(15): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(15): error C2065: “add”: 未声明的标识符
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(15): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(15): error C2065: “eax”: 未声明的标识符
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(16): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(16): error C2065: “mov”: 未声明的标识符
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(16): error C2146: 语法错误: 缺少“;”(在标识符“c”的前面)
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(16): error C2065: “eax”: 未声明的标识符
+d:\projects\c_practice\day_01\day01\day01\04simplecalculate.asm(17): error C2143: 语法错误: 缺少“;”(在“}”的前面)

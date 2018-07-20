@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(void)
+int main02(int argc, char* argv[])
 {
 	int value = 0;
 	//cmd命令 calc 计算器 notepad 记事本 mspaint 画图板
