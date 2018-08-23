@@ -8,16 +8,17 @@ int main(int argc, char const *argv[])
     char* p = "11abcd111122abcd3322abcd3333322qqqabcd";
     int i = 0;
     char *tmp = NULL;
+    char* targetStr = "abcd";
 
     while(1){
         //查找匹配字符串,如果找到,返回匹配字符串的地址,没有找到返回空
-        tmp = strstr(p, "abcd");
+        tmp = strstr(p, targetStr);
         if(tmp == NULL) 
             break;
         else{
             i++;
             //重新设置寻找起点
-            p = tmp + strlen("abcd");
+            p = tmp + strlen(targetStr);
         }//没有找到
     }
     // printf("Times matched: %d\n", findCount(*p, sizeof(p)/sizeof(*p)));

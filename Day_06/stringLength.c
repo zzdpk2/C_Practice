@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 
     printf("Valid length: %d", i+1);
 
-    getchar();
+    // getchar();
 
     return 0;
 }
