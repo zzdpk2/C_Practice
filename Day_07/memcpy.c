@@ -19,9 +19,10 @@ int main(int argc, char const *argv[])
     //memcpy(b, a, sizeof(a));
 
     //使用memcpy不要出现内存重叠
-    memcpy(&a[2], a, 5 * sizeof(int));
+    // memcpy(&a[2], a, 5 * sizeof(int));
 
-    // 
+    //防止内存重叠，请使用memmove 
+    memmove(&a[2], a, 5 * sizeof(int));
 
     return 0;
 }
