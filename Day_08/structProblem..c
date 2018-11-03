@@ -17,6 +17,12 @@ void setStudent(struct Student *ps1){
 
 }
 
+void outputStudent(const struct Student *ps1){
+
+    printf("%d, %s, %d\n", ps1->age, ps1->name, ps1->score);
+
+}
+
 int main(int argc, char const *argv[])
 {
     struct Student s1 = {18, "mike", 59};
