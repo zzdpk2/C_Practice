@@ -14,7 +14,6 @@ struct Student{
 static struct Student point2stack(struct Student *p){
     
     struct Student s;
-
     p = &s;
 
     char buf[CHAR_LENGTH];
