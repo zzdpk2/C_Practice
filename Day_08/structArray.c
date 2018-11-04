@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
 
     //求平均分
     double ave = 0;
-    int num = sizeof(a)/sizeof(*a);
+    int num = sizeof(a) / sizeof(*a);
     for(int i = 0; i < num; i++)
         ave += (a[i].score/num);
     

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 
 struct Student{
@@ -14,8 +15,9 @@ int main(int argc, char const *argv[]){
     struct Student s;
     s.age = 18;
 
-    char buf[100];
-    s.name = buf; //Points to stack area
+    // struct Student *ps = (struct Student *) malloc (sizeof(struct Student));
+    s.name = (char *) malloc (strlen("mike"));
+
     strcpy(s.name, "mike"); 
     s.score = 59;
     
