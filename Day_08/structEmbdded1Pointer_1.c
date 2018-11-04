@@ -19,10 +19,15 @@ int main(int argc, char const *argv[])
         return 0;
     }
 
+    p -> name = (char*) malloc (strlen("mike") + 1);
 
     p -> age = 18;
     strcpy(p->name, "mike");
     p -> score = 59;
+
+    printf("%d, %s, %d\n", p -> age, p -> name, p -> score);
+
+    // getchar();
 
     return 0;
 }
