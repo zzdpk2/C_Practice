@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
         
         printf("Allocate failed!\n");
         return 0;
-    
+        
     }
 
     strcpy(p, "MikeJiang");
