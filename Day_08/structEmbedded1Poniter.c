@@ -16,11 +16,13 @@ int main(int argc, char const *argv[]){
     s.age = 18;
 
     // struct Student *ps = (struct Student *) malloc (sizeof(struct Student));
-    s.name = (char *) malloc (strlen("mike"));
+    s.name = (char *) malloc (strlen("mike123123") + 1);
 
     strcpy(s.name, "mike"); 
     s.score = 59;
     
+    printf("%d, %s, %d\n", s.age, s.name, s.score);
+
     return 0;
 }
 
