@@ -23,6 +23,11 @@ int main(int argc, char const *argv[]){
     
     printf("%d, %s, %d\n", s.age, s.name, s.score);
 
+    if(s.name != NULL){
+        free(s.name);
+        s.name = NULL;
+    }
+
     return 0;
 }
 
