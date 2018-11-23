@@ -1,0 +1,5 @@
+before aaaaaaaaaa
+close ret: 0
+fd: 1
+after bbbbbbbb
+after cccccccc
