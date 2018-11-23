@@ -18,5 +18,9 @@ int main(int argc, char const *argv[])
 
     int64 a = 64;
 
+    Test2 tmp = {5};
+
+    printf("tmp: %d\n", tmp.a);
+
     return 0;
 }
