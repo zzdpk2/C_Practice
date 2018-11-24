@@ -30,10 +30,10 @@ void read_file(){
     char ch;
     while(1){
 
-        if(ch == EOF)
-            break;
-
         ch = fgetc(fp);
+
+        if(ch == EOF)   break;
+
         printf("ch = %c\n", ch);
 
     }
