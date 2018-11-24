@@ -8,12 +8,13 @@
 
 int main(){
     
-    //printf函数是往标准输出函数写内容
-    fprintf(stdout, "before aaaaaaaaaa\n");
-    int k = close(1); //1代表标准输出设备，关闭了，1就是空闲数字
-    printf("close ret: %d\n", k); //0 OK, -1 Failed
-
-
+    //printf函数是往标准输出设备写内容
+    // fprintf(stdout, "before aaaaaaaaaa\n");
+    printf("before aaaaaaaa\n");
+    close(1);
+    // int k = close(1); //1代表标准输出设备，关闭了，1就是空闲数字
+    // printf("close ret: %d\n", k); //0 OK, -1 Failed
+    // stdout = fopen("./01.txt", "w"); 
     int fd = open("01.txt", O_WRONLY, 0777);  //fd的值open会找最少可用的
     // fd = 1 和 01.txt关联了，所以写到了文件里
     printf("fd: %d\n", fd);

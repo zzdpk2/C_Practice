@@ -1,5 +1,3 @@
-before aaaaaaaaaa
-close ret: 0
-fd: 1
+before aaaaaaaa
 after bbbbbbbb
 after cccccccc
