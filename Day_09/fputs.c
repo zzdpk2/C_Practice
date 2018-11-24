@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 
 int main(){
 
@@ -15,6 +15,10 @@ int main(){
         fputc(ch, fp);
         ch++;
     }
+
+    char ch1[] = "abcdefg";
+    for(int i = 0; i < strlen(ch1); i++)
+        fputc(*(ch1+i), fp);
 
     fclose(fp);
     fp = NULL; 
