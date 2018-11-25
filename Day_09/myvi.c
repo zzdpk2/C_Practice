@@ -10,14 +10,22 @@ int main(int argc, char const *argv[]){
     char buf[1024];
     while(1){
         
+        //默认遇到换行符，结束读取,换行符放在buf里
+
         fgets(buf, sizeof(buf), stdin);
 
-        if()
+        if(strncmp(buf, ":wq", 3) == 0) break;
+
+        int i = 0;
+        while(buf[i] != '\0' ){
+            fputc(buf[i], fp);
+            i++;
+        }
     
     }
 
-    //clsoe file
-
+    //close file
+    fclose(fp);
 
     return 0;
 }
