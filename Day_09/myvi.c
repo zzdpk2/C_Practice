@@ -16,11 +16,14 @@ int main(int argc, char const *argv[]){
 
         if(strncmp(buf, ":wq", 3) == 0) break;
 
-        int i = 0;
-        while(buf[i] != '\0' ){
+        // int i = 0;
+        // while(buf[i] != '\0' ){
+        //     fputc(buf[i], fp);
+        //     i++;
+        // }
+
+        for(int i = 0; i < strlen(buf); i++) 
             fputc(buf[i], fp);
-            i++;
-        }
     
     }
 
