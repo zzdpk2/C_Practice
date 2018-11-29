@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(int argc, char const *argv[])
 {
@@ -7,6 +8,7 @@ int main(int argc, char const *argv[])
     char buf[100];
     int i = 0;
     while(1){
+    // while(!feof(fp)){
 
         fgets(buf, sizeof(buf), fp);
         if(feof(fp))    break;
