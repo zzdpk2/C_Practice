@@ -1,5 +1,26 @@
 #include <stdio.h>
 
+int main(int argc, char const *argv[])
+{
+    FILE *fp = fopen("11.txt", "r");
+    
+    char buf[100];
+    int i = 0;
+    while(1){
+
+        fgets(buf, sizeof(buf), fp);
+        if(feof(fp))    break;
+        printf("buf = %s", buf);
+
+    }
+
+    fclose(fp);
+    fp = NULL;
+
+    return 0;
+}
+
+
 int main01(int argc, char const *argv[])
 {
     FILE *fp = fopen("11.txt", "r");
